@@ -1,0 +1,27 @@
+* react-native 개발 환경 세팅
+0) Node.js가 설치된 환경에서 시작한다.
+1) CRNA(create-react-native-app)를 설치한다.
+   (npm install -g create-react-native-app)
+1) expo cli를 설치한다.
+   (npm install expo-cli --global)
+2) 프로젝트를 생성하고 실행한다.
+   (expo init 프로젝트명) (expo 없이 앱 생성은 create-react-native-app 프로젝트명)
+   (cd 프로젝트명)
+   (expo start)
+3) expo 템플릿을 고른 후, 
+   blank(한 개의 빈 페이지만 있는 템플릿) 또는 
+   tabs(react-navigation을 통해 여러 페이지가 있는 템플릿)) 중
+   하나를 선택한다.
+4) 앱 스토어에서 expo 앱을 설치한다.
+5) 웹 브라우저로 http://localhost:19002에 접속한 후 기다리면 QR 코드가 출력된다.
+6) QR 코드를 아이폰 카메라로 인식시킨 후 expo 앱으로 구동한다.
+
+* 참고
+1) https://hoony-gunputer.tistory.com/entry/react-native-개발-환경-설정하기expo
+2) https://steemit.com/kr/@anpigon/react-native-5-4-1543113530194
+   (날씨 앱 만들기; https://github.com/anpigon/weather_app)
+3) https://ui.toast.com/weekly-pick/ko_20190624
+   (Expo Web)
+
+* Weather API
+  (https://openweathermap.org/api)
